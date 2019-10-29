@@ -1,0 +1,11 @@
+### PROTECT FILES ###
+<FilesMatch "\.(htaccess|htpasswd|ini|fla|psd|log|sh)$">
+Order Allow,Deny
+Deny from all
+</FilesMatch>
+
+RewriteEngine on
+RewriteRule zatrudnij-programiste-grzybowego index.html
+RewriteRule cv-programista-html-css-javascript cv.html
+RewriteRule oferta-tworzenie-stron-www oferta.html
+RewriteRule grzyby grzyby.html

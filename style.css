@@ -1,0 +1,111 @@
+body{
+    background-color: #353535;
+    color: white;
+    font-family: 'Alegreya', sans-serif;
+    font-size: 15px;
+}
+
+#container
+{
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.rectangle{
+    width: 960px;
+    margin: 20px;
+    text-align: center;
+}
+
+.square{
+    width: 50%;
+    float: left;
+}
+
+#logo{
+    float: left;
+    font-family: 'Alex Brush', sans-serif;
+    font-size: 30px;
+    width: 500px;
+    text-align: left;
+}
+#zegar
+{
+	float: left;
+    font-family: 'Alex Brush', sans-serif;
+    font-size: 30px;
+	text-align: center;
+}
+
+.tile1{
+    margin:10px;
+    width:200px;
+    height:100px;
+    padding: 15px;
+    font-size: 24px;
+    background-color: #3237F4;
+    float: left;
+    text-align: center;
+}
+.tile1:hover{
+background-color: #2126e3;
+}
+
+.tile2{
+    margin:10px;
+    width:200px;
+    height:100px;
+    font-size: 24px;
+    background-color: #40FF00;
+    float: left;
+    text-align: center;
+    padding: 15px;
+    line-height: 150%;
+}
+.tile2:hover{
+    background-color: #10cc00;
+}
+
+.tile3{
+    margin:10px;
+    width:420px;
+    height:70px;
+    padding: 30px;
+    font-size: 150%;
+    background-color: #5604578a;
+    float: left;
+    text-align: center;
+}
+.tile3:hover{
+    background-color: #23012457;
+}
+
+.tile4{
+    margin:10px;
+    width:460px;
+    height:260px;
+    padding: 10px;
+    background-color: #9acd32;
+    text-align: center;
+}
+.tile4:hover{
+    background-color: #89bc21;
+}
+
+.small1{
+    margin:10px;
+    width: 105px;
+    height: 130px;
+    background-color: #d76712;
+    float: left;
+    text-align: center;
+}
+.small1:hover{
+    background-color: #c65601;
+}
+
+a.linkclass1{
+    color:#ffffff;
+    text-decoration: none;
+}
